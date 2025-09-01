@@ -1,6 +1,6 @@
 #!/bin/bash  
 
-export UUID=${UUID:-'c067ec3e-c33f-4dba-89a0-ec210254ced7'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
+export UUID=${UUID:-'cf0922e5-3d6f-4b90-a9fc-a9cba5722e7a'} # 如开启哪吒v1,不同的平台需要改一下，否则会覆盖
 export NEZHA_SERVER=${NEZHA_SERVER:-'a.holoy.dpdns.org:36958'}       # v1哪吒填写形式：nezha.abc.com:8008,v0哪吒填写形式：nezha.abc.com
 export NEZHA_PORT=${NEZHA_PORT:-''}           # v1哪吒不要填写这个,v0哪吒agent端口为{443,8443,2053,2083,2087,2096}其中之一时自动开启tls
 export NEZHA_KEY=${NEZHA_KEY:-'NwxKJwM9UKRCX5TBPaBm0IrjNCSyflif'}             # 哪吒v0-agent密钥或v1的NZ_CLIENT_SECRET
@@ -12,7 +12,7 @@ export NAME=${NAME:-'yacolo'}                 # 节点名称
 export FILE_PATH=${FILE_PATH:-'./.tmp'}       # sub.txt节点保存路径  
 export ARGO_PORT=${ARGO_PORT:-'36570'}        # 请改一个冷门的端口，argo端口 使用固定隧道token,cloudflare后台设置的端口需和这里对应，
 export TUIC_PORT=${TUIC_PORT:-''}             # Tuic 端口，支持多端口玩具可填写，否则不动
-export HY2_PORT=${HY2_PORT:-''}               # Hy2 端口，支持多端口玩具可填写，否则不动
+export HY2_PORT=${HY2_PORT:-'50420'}               # Hy2 端口，支持多端口玩具可填写，否则不动
 export REALITY_PORT=${REALITY_PORT:-''}       # reality 端口,支持多端口玩具可填写，否则不动   
 export CHAT_ID=${CHAT_ID:-'7627328147'}                 # TG chat_id，可在https://t.me/laowang_serv00_bot 获取
 export BOT_TOKEN=${BOT_TOKEN:-'8337759907:AAGvmCiBeS2G_RXiNEUHYa4cdxn119nzV44'}             # TG bot_token, 使用自己的bot需要填写,使用上方的bot不用填写,不会给别人发送
